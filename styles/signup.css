@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+body{
+    background-image: url('../images/brown.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.forms{
+    border:1px solid white;
+    margin-top:100px;
+    padding:50px;
+    border-radius: 10px;
+    background-color:rgba(224, 53, 53, 0.171);
+}
+
+#pic{
+    height:102.5%;
+    width: 90%;
+    margin-left: 73%;
+    border-top-left-radius: 10px;
+    
+}
+
+.navbar{
+   
+    height:50px;
+    
+}
+.nav-item{
+    
+    font-family: 'Times New Roman', Times, serif;
+   font-size:20px;
+   padding:20px;
+   font-weight:50px;
+}
+
+
+
+.nav-item a:hover{
+    background-color: teal;
+    color:black !important;
+
+}
+
+.btn{
+    
+    margin-left:130px;
+    width: 50%;
+    }
+
+

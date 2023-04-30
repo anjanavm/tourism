@@ -1,0 +1,87 @@
+*{
+    padding:0px;
+    margin:0px
+}
+body{
+    background-image: url('../images/w1.jpg');
+    background-repeat: none;
+    background-size: cover;
+    
+   
+    
+}
+
+.box{
+    border:  solid transparent ;
+    margin-top: 200px;
+    margin-left: 250px;
+    padding:65px;
+    
+    border-radius: 10px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+#h{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.btn{
+    
+    margin-left:130px;
+    width: 50%;
+    }
+
+#help{
+    color:black;
+    font-weight: normal;
+    font-size: medium;
+    
+}
+#help:hover{
+    color:red;
+}
+
+#first1 {
+    
+    padding-top:150px;
+    height:365px;
+    
+    border-radius: 5px ;
+}
+#quotes{
+    border: 2px solid rgb(255, 254, 254);
+    background-color: rgba(255, 255, 255, 0.616);
+    border-radius: 5px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    height: 250px;
+    
+}
+
+.navbar{
+   
+    height:50px;
+    
+}
+.nav-item{
+    
+    font-family: 'Times New Roman', Times, serif;
+   font-size:20px;
+   padding:20px;
+   font-weight:50px;
+}
+
+
+
+.nav-item a:hover{
+    background-color: teal;
+    color:black !important;
+
+}

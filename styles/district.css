@@ -1,0 +1,145 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#pic{
+    height: 600px;
+    width: 100%;
+    opacity: 200px;
+}
+
+.photo{
+    position: relative;
+    text-align: center;
+    
+  }
+  .centered {
+    position: absolute;
+    bottom: 8%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    
+  }
+.heading{
+    
+    font-size: 75px;
+    text-align: center;
+    margin-left:450px;
+}
+.para{
+    margin-left:30%;
+}
+#dis{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+img{
+    height:300px;
+    width: 300px;
+}
+
+.trial{
+    margin-left:50%;
+
+}
+
+
+
+
+.content {
+  position: absolute; 
+  bottom: 0; 
+  
+  background: rgba(0, 0, 0, 0.3); 
+  color: #f1f1f1; 
+  width: 99%; 
+  height:50px;
+  padding: 10px; 
+  text-align: center;
+}
+
+.p {
+    position: relative;
+    
+    margin: 0 auto; 
+  }
+  
+  .p.content {
+    position: absolute; 
+    bottom: 0; 
+   
+    color: #f1f1f1; 
+    width: 100%; 
+    padding: 20px; 
+  }
+  .district{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size:25px;
+    padding:50px;
+  }
+  .district:hover{
+    color: black;
+    
+    
+  }
+
+.content1{
+  position: absolute; 
+  bottom: 0; 
+  background: rgba(0, 0, 0, 0.3); 
+  color: #f1f1f1; 
+  height:50px;
+  text-align: center;
+    width: 47%; 
+    margin-top:100px;
+    margin-left:50%;
+}
+
+.content2{
+  position: absolute; 
+  bottom: 0; 
+  background: rgba(0, 0, 0, 0.3); 
+  color: #f1f1f1; 
+  height:50px;
+  text-align: center;
+    width: 47%; 
+    margin-top:100px;
+}
+.container1{
+  border-top:60px solid transparent;
+}
+
+
+.every{
+  border:10px solid transparent;
+  background-color: rgba(128, 128, 128, 0.137);
+}
+
+
+
+.navbar{
+   
+  height:50px;
+  
+}
+.nav-item{
+  
+  font-family: 'Times New Roman', Times, serif;
+ font-size:20px;
+ padding:20px;
+ font-weight:50px;
+}
+
+
+
+.nav-item a:hover{
+  background-color: teal;
+  color:black !important;
+
+}
+  
