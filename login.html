@@ -83,18 +83,20 @@
     
          </div>
          <div class="col col-sm-12 col-md-8 col-lg-8 xl-8">
-            <form class="box h-99 w-75">
+            <form class="box h-99 w-75" return onsubmit="validateForm()">
                 <h2 id="h">Sign In</h2>
                 
                 <h4 class="para text-center fs-6">Get ready to sign in to Kerala!</h4>
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label fw-bolder">Email</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <span id="error1"> </span>
 
                 </div>
                 <div class="mb-3">
                   <label for="exampleInputPassword1" class="form-label fw-bolder">Password</label>
                   <input type="password" class="form-control" id="exampleInputPassword1">
+                  <span id="error2"> </span>
                 </div>
                 
                 <a id="help" href="#">Forgot password?</a>
@@ -105,7 +107,7 @@
                 <br>
                 
               </form>
-    
+              <script src="javascript/login.js"></script>
     
          </div>
          
